@@ -1,0 +1,140 @@
+body{
+  background-image : url('https://i.imgur.com/A6slVtV.jpg');
+  background-repeat :no-repeat;
+  color : white;
+  margin : 40px 80px 40px 80px;
+  font-family : FreeMono, monospace;
+}
+
+*{
+  position : relative;
+}
+
+header{
+  box-sizing : border-box;
+  position : fixed;
+  top : 40px;
+  width : 100%;
+}
+
+header span{
+  float : left;
+  width : 5%;
+}
+
+header."fas fa-circle"{
+  width : 10px;
+  margin : 0px;
+}
+
+span.line {
+  width : 70%;
+}
+
+hr{
+  border : 0px;
+  height : 3px;
+  background-color : #F5F5F5;
+  color : #F5F5F5; 
+}
+
+#header_left {
+  position : absolute;
+  right : 80px;
+  width : 15%;
+}
+#header_left *{
+  padding-right : 20px;
+}
+
+span form{
+  display : inline;
+}
+
+i."fas fa-search", i."fas fa-ellipsis-h"{
+  width : 30px;
+}
+
+.container{
+  padding-top : 30px;
+}
+
+#left{
+  position : absolute;
+  left : 0px;
+  width : 40%;
+}
+#right{
+  position : absolute;
+  right : 0px;
+  width : 55%;
+  font-size : 25px;
+}
+
+#left1{
+  font-size : 30px;
+  font-weight : bold;
+}
+
+button{
+  font-weight: bold;
+  font-size : 10px;
+  text-align : center;
+  padding : 15px 30px;
+  border : none;
+  border-radius : 2px;
+  background-color : hsl(0, 100%, 75%);
+  color : white;
+  box-shadow : 4px 0px 80px 2px hsla(0, 100%, 75%, 0.1), -4px -0px 80px 2px hsla(0, 100%, 75%, 0.1), 0px 4px 80px 2px hsla(0, 100%, 75%, 0.1), 0px -4px 80px 2px hsla(0, 100%, 75%, 0.1);
+}
+
+#map{
+  height : 200px;
+}
+#map span{
+  width : 30%;
+  float : left;
+}
+#map span.path{
+   width : 40%;
+}
+#starting_point{
+  text-decoration: underline dotted;
+}
+#destination{
+  vertical-align : bottom;
+  bottom : 0px;
+}
+#map i{
+  background-image : url('https://i.imgur.com/jAlEKUX.png');
+}
+
+.traffic_way span{
+  padding-right : 40px;
+  float : right;
+  clear : right;
+}
+.icon h6{
+  display : inline;}
+.icon i{
+  padding-left : 20px;
+}
+
+footer{
+  position : fixed;
+  bottom : 0px;
+  padding-bottom : 40px;
+}
+
+footer span{
+  float : left;
+}
+
+footer_icon{
+  size : 20px;
+}
+#date{
+  display : inline;
+  font-size : 70px;
+  font-weight : bold;
+}
