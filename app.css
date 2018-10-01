@@ -2,12 +2,17 @@ body{
   background-image : url('https://i.imgur.com/A6slVtV.jpg');
   background-repeat :no-repeat;
   color : white;
-  margin : 40px 80px 40px 80px;
+  margin : 40px 100px 40px 100px;
   font-family : FreeMono, monospace;
 }
 
 *{
   position : relative;
+}
+
+div.inline-block{
+  display : inline-block;
+  width : 30%;
 }
 
 header{
@@ -28,7 +33,7 @@ header."fas fa-circle"{
 }
 
 span.line {
-  width : 70%;
+  width : 65%;
 }
 
 hr{
@@ -40,7 +45,7 @@ hr{
 
 #header_left {
   position : absolute;
-  right : 80px;
+  padding-left : 50px;
   width : 15%;
 }
 #header_left *{
@@ -56,15 +61,19 @@ i."fas fa-search", i."fas fa-ellipsis-h"{
 }
 
 .container{
-  padding-top : 30px;
+  margin-top : 100px;
+  margin-right : 30px;
+  height : 500px;
 }
 
 #left{
   position : absolute;
   left : 0px;
   width : 40%;
+  padding-left : 50px;
 }
 #right{
+  padding-top : 50px;
   position : absolute;
   right : 0px;
   width : 55%;
@@ -95,18 +104,27 @@ button{
   width : 30%;
   float : left;
 }
-#map span.path{
-   width : 40%;
+#path{
+  vertical-align : top; 
+  width : 35%;
 }
 #starting_point{
-  text-decoration: underline dotted;
+  max-width : 15%;
+  vertical-align : top;
+  text-decoration : underline dotted;
+}
+
+#small_container{
+  width : 40%;
 }
 #destination{
+  padding-top : 40px;
   vertical-align : bottom;
   bottom : 0px;
 }
-#map i{
-  background-image : url('https://i.imgur.com/jAlEKUX.png');
+img{
+  float : left;
+  max-width : 200px;
 }
 
 .traffic_way span{
@@ -115,11 +133,15 @@ button{
   clear : right;
 }
 .icon h6{
-  display : inline;}
+  display : inline;
+}
 .icon i{
-  padding-left : 20px;
+  padding-right : 20px;
 }
 
+#map_go_detail_arrow{
+  padding-left : 20px;
+}
 footer{
   box-sizing : border-box;
   position : fixed;
@@ -135,20 +157,29 @@ footer span{
 
 span.footer_line {
   width : 60%;
-  padding-top : 48px;
+  padding-top : 77px;
   padding-right : 4em;
 }
 
 .footer_line hr{
   height : 5px;
 }
-span.footer_icon{
-  padding-top :30px;
-  right : 0px;
+div.footer_icon{
+  display : inline-block;
+  margin-top : 40px;
 }
 
 #date{
   display : inline;
-  font-size : 70px;
+  font-size : 100px;
   font-weight : bold;
+}
+#Location{
+  position : relative;
+  top : 45px;
+  left : 88px;
+  background-color : #615757;
+  width : 60px;
+  text-align : center;
+  z-index : 1;
 }

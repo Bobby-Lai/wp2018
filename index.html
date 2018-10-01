@@ -35,41 +35,47 @@
       </div>
       <div id="right">
         <div id="map">
-          <span id="starting_point">
-            <h6>Taipei<br>Taiwan</h6>
-          </span>
-          <span class="path">
-            <i></i>
-          </span>
-          <span id="destination">
-            <h6>Kaohsiung<br>Taiwan</h6>
-          </span>
-        </div>
-        <div class="traffic_way">
-          <span class="icon">
-            <i class="fas fa-car"></i>
-            <i class="fas fa-train"></i>
-            <i class="fas fa-motorcycle"></i>
-            <i class="fas fa-male"></i>
-          </span>
-          <span class="icon">
-            <h6>3 hr 43 min (359 km)</h6>
-            <i class="fas fa-angle-right"></i>
-          </span>
+          <div id="starting_point" class="inline-block">
+            <h6 style="margin-top:0px">Taipei<br>Taiwan</h6>
+          </div>
+          <div id="path" class="inline-block">
+            <img src="https://i.imgur.com/ObiRZ9g.png"></img>
+          </div>
+          <div id="small_container" class="inline-block">
+            <div id="destination">
+              <h6>Kaohsiung<br>Taiwan</h6>
+            </div>
+            <div class="traffic_way">
+              <div class="icon">
+                <i class="fas fa-car"></i>
+                <i class="fas fa-train"></i>
+                <i class="fas fa-motorcycle"></i>
+                <i class="fas fa-male"></i>
+              </div>
+              <div class="icon">
+                <h6>3 hr 43 min (359 km)</h6>
+                <i id="map_go_detail_arrow" class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
     <footer>
+      <div id="Location">
+        Taiwan
+      </div>
       <span>
         <h1 id="date">02</h1>
       </span>
       <span class="footer_line">
         <hr>
       </span>
-      <span class"footer_icon">
+      <div class="footer_icon">
         <i class="fas fa-chevron-circle-left" style="font-size:3em;"></i>
         <i class="fas fa-chevron-circle-right" style="font-size:3em;" ></i>
-      </span>
+      </div>
       </footer>
     </body>
   </html>
